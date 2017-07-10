@@ -13,6 +13,8 @@
 		EDAC9CBE1F136D5F00B50D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC9CBC1F136D5F00B50D34 /* Main.storyboard */; };
 		EDAC9CC01F136D5F00B50D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAC9CBF1F136D5F00B50D34 /* Assets.xcassets */; };
 		EDAC9CC31F136D5F00B50D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC9CC11F136D5F00B50D34 /* LaunchScreen.storyboard */; };
+		EDAC9CFB1F137EAF00B50D34 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC9CFA1F137EAF00B50D34 /* AViewController.m */; };
+		EDAC9D021F1380F800B50D34 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC9D011F1380F800B50D34 /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EDAC9CBF1F136D5F00B50D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDAC9CC21F136D5F00B50D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDAC9CC41F136D5F00B50D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC9CF91F137EAF00B50D34 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		EDAC9CFA1F137EAF00B50D34 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		EDAC9D001F1380F800B50D34 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		EDAC9D011F1380F800B50D34 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		EDAC9CB21F136D5F00B50D34 /* BussA */ = {
 			isa = PBXGroup;
 			children = (
+				EDAC9CF81F137EAF00B50D34 /* BussA */,
 				EDAC9CB61F136D5F00B50D34 /* AppDelegate.h */,
 				EDAC9CB71F136D5F00B50D34 /* AppDelegate.m */,
 				EDAC9CB91F136D5F00B50D34 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				EDAC9CB41F136D5F00B50D34 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDAC9CF81F137EAF00B50D34 /* BussA */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC9D001F1380F800B50D34 /* Target_A.h */,
+				EDAC9D011F1380F800B50D34 /* Target_A.m */,
+				EDAC9CF91F137EAF00B50D34 /* AViewController.h */,
+				EDAC9CFA1F137EAF00B50D34 /* AViewController.m */,
+			);
+			path = BussA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAC9CFB1F137EAF00B50D34 /* AViewController.m in Sources */,
 				EDAC9CBB1F136D5F00B50D34 /* ViewController.m in Sources */,
+				EDAC9D021F1380F800B50D34 /* Target_A.m in Sources */,
 				EDAC9CB81F136D5F00B50D34 /* AppDelegate.m in Sources */,
 				EDAC9CB51F136D5F00B50D34 /* main.m in Sources */,
 			);
@@ -307,6 +327,7 @@
 				EDAC9CC91F136D5F00B50D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
