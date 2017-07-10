@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is BussA
                    DESC
 
-  s.homepage     = "https://github.com/JanvenZhao/CT_mainProject.git"
+  s.homepage     = "https://github.com/JanvenZhao/BussA.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/JanvenZhao/CT_mainProject.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/JanvenZhao/BussA.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
