@@ -1,3 +1,1 @@
-# BussA
-BussA
-Fir
+pod "BussA"
